@@ -14,4 +14,17 @@
  * 5. listen to port
  * 6. node index.js
  * 7. check your browser for that port
+ * -----------------------
+ * get
+ * ------------------------
+ * 1. cors middleware cors install
+ * 2. app.use(cors())
+ * -----------------------
+ * post
+ * ------------------------
+ * 1. app.use(express.json())
+ * 
+ * ---------search query------
+ * 1. req.query.name to filter
+ * 
  * */ 
